@@ -1,10 +1,9 @@
-package twosums
+package TwoSums
 
 import "testing"
 
 func TestAdd(t *testing.T) {
-	sum := 4 + 6
-	got := sum
+	got := sum(7, 3)
 	want := 10
 
 	if got != want {
