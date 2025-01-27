@@ -1,9 +1,9 @@
-package TwoSums
+package twosums
 
 import "testing"
 
 func TestAdd(t *testing.T) {
-	got := sum(7, 3)
+	got := Sum(8, 2)
 	want := 10
 
 	if got != want {
